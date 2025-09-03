@@ -20,8 +20,8 @@ Each character in the input string is shifted by a fixed key plus a randomly gen
    - The index is incremented by the **fixed key** plus the **salt**.
    - The result is wrapped around using **modulo 26** to stay within the alphabet.
    - The new index is converted back to a character.
-   -input : "HelloWorld"
-   -output : "LqvpdXazrl"
+   - input : "HelloWorld"
+   - output : "LqvpdXazrl"
 
 ---
 
